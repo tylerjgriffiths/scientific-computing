@@ -8,3 +8,13 @@
   tools for graphing data. It /doesn't/ include any of my
   actual assignment solutions as submitted.
  
+* Contents
+
+** =txy_visualize.py=
+
+   This Python script shows propagation of a one-dimensional system
+   with time.
+
+   Expected input format: 
+
+   =[timestamp] [x-value] [y-value]=

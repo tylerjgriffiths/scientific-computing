@@ -1,0 +1,10 @@
+#+TITLE: Scientific Computing tools
+#+AUTHOR: Tyler Griffiths
+
+* Description
+
+  This repo contains a few things I wrote whilst working on an
+  undergraduate scientific computing module, including some
+  tools for graphing data. It /doesn't/ include any of my
+  actual assignment solutions as submitted.
+ 

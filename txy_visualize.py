@@ -33,12 +33,6 @@ def plot_data(time):
     plt.plot(x,y)
     plt.show()
 
-# for time in sorted(data_hashtable.keys()):
-#     plot_data(time)
-
-#yrange=(-100,100)
-
-
 fig = plt.figure()
 ax = plt.axes(xlim=(rangex[0],rangex[1]), ylim=(yrange[0],yrange[1]))
 line, = ax.plot([], [], lw=2)
@@ -59,7 +53,5 @@ interv=30
 blitp=True
 
 anim = animation.FuncAnimation(fig, animate, init_func=init, frames=nframes, interval=interv, blit=blitp)    
-
-# anim.save("out.mp4", fps=30, extra_args=['-vcodec', 'libx264'])
 
 plt.show()
